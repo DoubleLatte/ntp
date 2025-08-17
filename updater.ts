@@ -70,3 +70,4 @@ const metadata = {
 };
 const metadataPath = path.join(outputDir, 'update-metadata.json');
 fs.writeFileSync(metadataPath, JSON.stringify(metadata, null, 2));
+console.log(`메타데이터 생성: ${metadataPath}`);
